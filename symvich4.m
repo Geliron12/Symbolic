@@ -1,0 +1,21 @@
+sym x
+%1
+disp('1)')
+f=(1-x^2)^(1/2)/x^2;
+z=int(f);
+disp(collect(z));
+%5
+disp('5)')
+f=1/(1+x^2);
+z=int(f,0,inf);
+disp(z);
+%5
+disp('5)')
+f=1/(1+x^2);
+z=int(f,0,inf);
+disp(z);
+%6
+disp('6)')
+f=1/(x^2-1);
+z=int(f,-2,2);
+disp(z);
